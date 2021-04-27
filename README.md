@@ -4,7 +4,8 @@ Problema URI1002 (Área do Círculo) - URI Online Judge.
 
 ### Recursos Utilizados ### 
 - Mocha (framework de testes)
--  Chai (biblioteca de asserção)
+- Chai (biblioteca de asserção)
+- Mochawesome (relatório customizado para testes c/ Mocha)
 - Travis (integração contínua)
 
 ### Comandos ### 
