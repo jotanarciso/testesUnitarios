@@ -1,0 +1,150 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2021-04-27T20:16:33.357Z",
+    "end": "2021-04-27T20:16:33.370Z",
+    "duration": 13,
+    "testsRegistered": 3,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bdacf06c-bc71-4331-989b-ee2f61bdfd54",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9cd5c769-83a8-4c8d-8505-6ea73d3fad11",
+          "title": "Testando calculo de área do circulo",
+          "fullFile": "C:\\Users\\joao.narciso\\Desktop\\testesUnitarios\\test\\failing-test-spec.js",
+          "file": "\\test\\failing-test-spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Usando entrada 2.00",
+              "fullTitle": "Testando calculo de área do circulo Usando entrada 2.00",
+              "timedOut": false,
+              "duration": 2,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(\n  calcularAreaCirculo(2),\n  12.5664\n);",
+              "err": {
+                "message": "AssertionError: expected 0 to equal 12.5664",
+                "estack": "AssertionError: expected 0 to equal 12.5664\n    at Context.<anonymous> (test\\failing-test-spec.js:9:12)\n    at processImmediate (internal/timers.js:461:21)",
+                "diff": "- 0\n+ 12.5664\n"
+              },
+              "uuid": "49a38f15-9ed8-4b8e-b6eb-3e5326c0b02e",
+              "parentUUID": "9cd5c769-83a8-4c8d-8505-6ea73d3fad11",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Usando entrada 100.64",
+              "fullTitle": "Testando calculo de área do circulo Usando entrada 100.64",
+              "timedOut": false,
+              "duration": 1,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(\n  calcularAreaCirculo(100.64),\n  31819.3103\n);",
+              "err": {
+                "message": "AssertionError: expected 0 to equal 31819.3103",
+                "estack": "AssertionError: expected 0 to equal 31819.3103\n    at Context.<anonymous> (test\\failing-test-spec.js:16:12)\n    at processImmediate (internal/timers.js:461:21)",
+                "diff": "- 0\n+ 31819.3103\n"
+              },
+              "uuid": "319c66da-5ced-40d6-a3fe-ef2fe22b38e0",
+              "parentUUID": "9cd5c769-83a8-4c8d-8505-6ea73d3fad11",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Usando entrada 150.00",
+              "fullTitle": "Testando calculo de área do circulo Usando entrada 150.00",
+              "timedOut": false,
+              "duration": 0,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "assert.equal(\n  calcularAreaCirculo(150.00),\n  70685.7750\n);",
+              "err": {
+                "message": "AssertionError: expected 0 to equal 70685.775",
+                "estack": "AssertionError: expected 0 to equal 70685.775\n    at Context.<anonymous> (test\\failing-test-spec.js:23:12)\n    at processImmediate (internal/timers.js:461:21)",
+                "diff": "- 0\n+ 70685.775\n"
+              },
+              "uuid": "57267d7b-3c8d-4bfa-9035-4f724613ab66",
+              "parentUUID": "9cd5c769-83a8-4c8d-8505-6ea73d3fad11",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "49a38f15-9ed8-4b8e-b6eb-3e5326c0b02e",
+            "319c66da-5ced-40d6-a3fe-ef2fe22b38e0",
+            "57267d7b-3c8d-4bfa-9035-4f724613ab66"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 3,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.3.2"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}

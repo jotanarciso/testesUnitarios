@@ -1,0 +1,13 @@
+{
+  "name": "js-test-project",
+  "version": "1.0.0",
+  "description": "A simple project with a single failing test",
+  "scripts": {
+    "test": "mocha test/**/*spec.js --reporter mochawesome --exit"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^8.3.2",
+    "mochawesome": "^6.2.2"
+  }
+}
